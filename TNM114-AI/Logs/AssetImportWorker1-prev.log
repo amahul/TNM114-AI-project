@@ -1,0 +1,637 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'sv' Physical Memory: 15961 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/beecc/OneDrive/Documents/LiU/TNM114-AI-project/TNM114-AI
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55299
+Successfully changed project path to: C:/Users/beecc/OneDrive/Documents/LiU/TNM114-AI-project/TNM114-AI
+C:/Users/beecc/OneDrive/Documents/LiU/TNM114-AI-project/TNM114-AI
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16388] Host "[IP] 10.241.220.19 [Port] 0 [Flags] 2 [Guid] 4138675470 [EditorId] 4138675470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1BVI96T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16388] Host "[IP] 10.241.220.19 [Port] 0 [Flags] 2 [Guid] 4138675470 [EditorId] 4138675470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1BVI96T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 11.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/beecc/OneDrive/Documents/LiU/TNM114-AI-project/TNM114-AI/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Vendor:   Intel
+    VRAM:     7980 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013872 seconds.
+- Loaded All Assemblies, in  0.676 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.468 seconds
+Domain Reload Profiling: 1143ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (353ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.154 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.995 seconds
+Domain Reload Profiling: 2145ms
+	BeginReloadAssembly (302ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (680ms)
+		LoadAssemblies (523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (292ms)
+				TypeCache.ScanAssembly (266ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (996ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (753ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3531.
+Memory consumption went from 114.0 MB to 114.0 MB.
+Total: 4.506700 ms (FindLiveObjects: 0.257000 ms CreateObjectMapping: 0.132400 ms MarkObjects: 3.975300 ms  DeleteObjects: 0.140900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 852094.841201 seconds.
+  path: Assets/FBX format/roadStart.fbx
+  artifactKey: Guid(d74ffbd40d5093945a0057cb5779cecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadStart.fbx using Guid(d74ffbd40d5093945a0057cb5779cecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e19bac113235b111ccfc2150dc4ba82') in 0.543678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FBX format/tentLong.fbx
+  artifactKey: Guid(06be544d0e5ee9a4fb62550ab2fda022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/tentLong.fbx using Guid(06be544d0e5ee9a4fb62550ab2fda022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5957227eba34fd98ac8bb4d2a398a443') in 0.069638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FBX format/roadStraightBridgeMid.fbx
+  artifactKey: Guid(ef345b581f6267148a4640ab1ea736a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadStraightBridgeMid.fbx using Guid(ef345b581f6267148a4640ab1ea736a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f360a1242811af8286fbcff99c35b0') in 0.067125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FBX format/ramp.fbx
+  artifactKey: Guid(ccbb8aa13a069af419a066c003b357b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/ramp.fbx using Guid(ccbb8aa13a069af419a066c003b357b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f43236ddec022e4f10ab6d37788d029') in 0.046798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FBX format/flagCheckers.fbx
+  artifactKey: Guid(c28fc264d9b734c46b6f31390382c0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/flagCheckers.fbx using Guid(c28fc264d9b734c46b6f31390382c0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e35ba70fbc1ef1caa68765d58aa5f4') in 0.094169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX format/tent.fbx
+  artifactKey: Guid(4982534cec2be514398e0230a3a593d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/tent.fbx using Guid(4982534cec2be514398e0230a3a593d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95984635f0c7b10b4fb4e10b08b6dd0f') in 0.035529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/FBX format/camera_exclusive.fbx
+  artifactKey: Guid(700743c094f6f164aa4006b823949902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/camera_exclusive.fbx using Guid(700743c094f6f164aa4006b823949902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55adf4a26cc8056c581feb754b3ee69') in 0.059331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FBX format/fenceStraight.fbx
+  artifactKey: Guid(6c185242adabbb24aa356dbcc153e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/fenceStraight.fbx using Guid(6c185242adabbb24aa356dbcc153e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53dfd0f784acb7cff235d3ff1fcd9b1b') in 0.044074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FBX format/tentClosed.fbx
+  artifactKey: Guid(eda3a9631006a3240963404a5ae50c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/tentClosed.fbx using Guid(eda3a9631006a3240963404a5ae50c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413013d247b6589a054a756a5983b313') in 0.038667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FBX format/barrierWall.fbx
+  artifactKey: Guid(7791ef4996b9b034aa1d1c6b4c0a8e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/barrierWall.fbx using Guid(7791ef4996b9b034aa1d1c6b4c0a8e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fc5a80239e5d480932ce5fefa0aeb1') in 0.052116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FBX format/lightRedDouble.fbx
+  artifactKey: Guid(5d5119dfeb9c7df4e9d94f8b5585565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/lightRedDouble.fbx using Guid(5d5119dfeb9c7df4e9d94f8b5585565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fc322bb4758a090db13f4ab38c5909') in 0.070101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FBX format/billboardDouble_exclusive.fbx
+  artifactKey: Guid(497d14d5ae73e144a923f863617d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/billboardDouble_exclusive.fbx using Guid(497d14d5ae73e144a923f863617d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8118e7d24746363e057ac4ab1dab43c') in 0.067697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FBX format/roadSide.fbx
+  artifactKey: Guid(16f3ca065d00c174aba1f432cd30c4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadSide.fbx using Guid(16f3ca065d00c174aba1f432cd30c4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b83ae50146032e5cf053d0eedde225e') in 0.051967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FBX format/bannerTowerRed.fbx
+  artifactKey: Guid(b2df1f9b758824f4f882d764dd0f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/bannerTowerRed.fbx using Guid(b2df1f9b758824f4f882d764dd0f68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1198890a33902940621a453bf3501e46') in 0.060536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FBX format/railDouble.fbx
+  artifactKey: Guid(ea87612f7878ac149bd15351e29dc421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/railDouble.fbx using Guid(ea87612f7878ac149bd15351e29dc421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cb2671f0f1a306d66eb6365661949f') in 0.029332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FBX format/tentRoofDouble.fbx
+  artifactKey: Guid(3927a8bd634c32146947d7be9e9c545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/tentRoofDouble.fbx using Guid(3927a8bd634c32146947d7be9e9c545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506d9159a83dbe886505d5562b3186f1') in 0.042336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FBX format/roadCornerLarge.fbx
+  artifactKey: Guid(9ceee4c6a1f501845a1fa1f847222b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadCornerLarge.fbx using Guid(9ceee4c6a1f501845a1fa1f847222b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fff90b0a321c86396a9a6d6294bf48') in 0.053091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FBX format/roadCornerBridgeLarge.fbx
+  artifactKey: Guid(4aa5a671f51819b488edf8eff14a923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadCornerBridgeLarge.fbx using Guid(4aa5a671f51819b488edf8eff14a923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40447b53f7994afc6b567ddaf820c4c5') in 0.048635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FBX format/roadStraightBridge.fbx
+  artifactKey: Guid(1e0b8d482e024334db6a4e8fd9bd4a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadStraightBridge.fbx using Guid(1e0b8d482e024334db6a4e8fd9bd4a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e820ea228b2672ad2b6f225b8a16569') in 0.081743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FBX format/roadSplitRound.fbx
+  artifactKey: Guid(e8f0a9ca5a201e44fa61556c59a9892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadSplitRound.fbx using Guid(e8f0a9ca5a201e44fa61556c59a9892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9946527bbd8d85c650cc1fd6652f66a6') in 0.059214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FBX format/grandStandCoveredRound.fbx
+  artifactKey: Guid(400b4b34b68c52345ac44ecddedd9269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/grandStandCoveredRound.fbx using Guid(400b4b34b68c52345ac44ecddedd9269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397c8fb1fd1baa424a38d94617bf09fd') in 0.082885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FBX format/roadCornerSmallBorder.fbx
+  artifactKey: Guid(b453808c75ad92449866f38206e464b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadCornerSmallBorder.fbx using Guid(b453808c75ad92449866f38206e464b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80418c5ef8413a4550a967d0bfc78a78') in 0.040761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FBX format/roadEnd.fbx
+  artifactKey: Guid(214f4e86d38d14346839efe3fcded5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadEnd.fbx using Guid(214f4e86d38d14346839efe3fcded5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71f682f247578f08923e91bbface6b9') in 0.064032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FBX format/roadStraightLong.fbx
+  artifactKey: Guid(c424cc23b366b0e47a6999748c7af30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadStraightLong.fbx using Guid(c424cc23b366b0e47a6999748c7af30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8888d1c006dfddaacf597412f762fb98') in 0.062859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FBX format/roadCornerLarger.fbx
+  artifactKey: Guid(6eeea3a71e610914bababf3c871fb8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadCornerLarger.fbx using Guid(6eeea3a71e610914bababf3c871fb8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8dbd49b7a37804bb0bfe9cf5c9efe5') in 0.059443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FBX format/overheadLights.fbx
+  artifactKey: Guid(424599276e0a9f2428b8e7d8fcefb564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/overheadLights.fbx using Guid(424599276e0a9f2428b8e7d8fcefb564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393f3f27355912330ccb198d06b08e28') in 0.056464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FBX format/roadCornerSmallWall.fbx
+  artifactKey: Guid(08fdc4f01cb2cf544a093d61e6b57e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadCornerSmallWall.fbx using Guid(08fdc4f01cb2cf544a093d61e6b57e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7352832a174c7f4ae0ff38b6cbeec270') in 0.047799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/FBX format/billboardLow.fbx
+  artifactKey: Guid(70272df65406da64ebf0966bd7a9f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/billboardLow.fbx using Guid(70272df65406da64ebf0966bd7a9f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e202fa334e6c59581cbf49825f0a0956') in 0.069443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FBX format/flagGreen.fbx
+  artifactKey: Guid(b3c424574c3098142bb4b39745a091d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/flagGreen.fbx using Guid(b3c424574c3098142bb4b39745a091d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513950be2cf06b5cd77fe8222b167b92') in 0.096519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FBX format/roadPitGarage.fbx
+  artifactKey: Guid(ff7e69bdc349b2148bd5c38069530c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadPitGarage.fbx using Guid(ff7e69bdc349b2148bd5c38069530c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61362192d1568287559f9ba7905d98c5') in 0.068106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FBX format/roadSplit.fbx
+  artifactKey: Guid(c1283ee435bdd894086d19417ca57304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadSplit.fbx using Guid(c1283ee435bdd894086d19417ca57304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c444976142746481d08723143ee4c09b') in 0.071086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FBX format/overhead.fbx
+  artifactKey: Guid(4a4ebb4db738c7c4ebe64b0b46150afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/overhead.fbx using Guid(4a4ebb4db738c7c4ebe64b0b46150afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b891b914599fde963349b58916ff62e') in 0.037197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FBX format/raceCarWhite.fbx
+  artifactKey: Guid(1d655061c8bb71c48a80eaab36eb292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/raceCarWhite.fbx using Guid(1d655061c8bb71c48a80eaab36eb292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ba2fbd7b389c0be2dd32c330d3a4c2') in 0.197898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FBX format/roadStartPositions.fbx
+  artifactKey: Guid(a03e487d2a69afc48936d37778aaa71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadStartPositions.fbx using Guid(a03e487d2a69afc48936d37778aaa71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781748d949b27c62d06cf9982381ebdf') in 0.072148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FBX format/roadPitStraightLong.fbx
+  artifactKey: Guid(30a5848ae3a5eee4e830e60c6aaf0b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadPitStraightLong.fbx using Guid(30a5848ae3a5eee4e830e60c6aaf0b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596e2ee53e8d89e79d571740f8c1af52') in 0.075797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FBX format/grandStandAwning.fbx
+  artifactKey: Guid(b47363175b582064184571f9769a07d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/grandStandAwning.fbx using Guid(b47363175b582064184571f9769a07d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050e40c481eecbd4a67a9631810e311f') in 0.068835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FBX format/roadStraightArrow.fbx
+  artifactKey: Guid(9be64db8e8d9e6d4c94eeda09fa4de68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadStraightArrow.fbx using Guid(9be64db8e8d9e6d4c94eeda09fa4de68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd600ff1f11b8ab3a4cf23d6371ce1d76') in 0.061089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FBX format/roadSplitRoundLarge.fbx
+  artifactKey: Guid(d3a1f704b6719974280cad1d302c1687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadSplitRoundLarge.fbx using Guid(d3a1f704b6719974280cad1d302c1687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b939b8bff50b6679c712e376869592') in 0.064634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FBX format/roadStraightBridgeStart.fbx
+  artifactKey: Guid(bb1a964dc4a0b6048915c0ea2f1da49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadStraightBridgeStart.fbx using Guid(bb1a964dc4a0b6048915c0ea2f1da49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21da77f6c9e7a9e9825f4a76830e619d') in 0.062374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX format/billboard.fbx
+  artifactKey: Guid(5377faee1fd9bf94a86b06ded3343fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/billboard.fbx using Guid(5377faee1fd9bf94a86b06ded3343fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68e482470f0105b4e10f082098d74b4') in 0.075470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FBX format/pitsOfficeCorner.fbx
+  artifactKey: Guid(8c845fb359630664e8529189e4f27fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/pitsOfficeCorner.fbx using Guid(8c845fb359630664e8529189e4f27fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dca42608d2ad87f6b863c20e7c336e') in 0.057987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FBX format/roadRampWall.fbx
+  artifactKey: Guid(50e583001c462b941a5316b5d916248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadRampWall.fbx using Guid(50e583001c462b941a5316b5d916248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b88fc5100ee933e9ec61f22723b58e') in 0.074913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FBX format/roadSplitLarge.fbx
+  artifactKey: Guid(9dc02ee68ce5ed1419eebdf35b4c8fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadSplitLarge.fbx using Guid(9dc02ee68ce5ed1419eebdf35b4c8fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5286b8f7705e665a45a761d5b87466e') in 0.059354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FBX format/roadSplitLarger.fbx
+  artifactKey: Guid(62c5db554ddd65d4e9e2641e5bc6cb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadSplitLarger.fbx using Guid(62c5db554ddd65d4e9e2641e5bc6cb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4fc27a3b1f98c822057c7c8a343f29') in 0.073767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FBX format/overheadRound.fbx
+  artifactKey: Guid(8434e88e7230c2244aa9c717e8481f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/overheadRound.fbx using Guid(8434e88e7230c2244aa9c717e8481f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114f9c1f982fc4b6091510dd98609273') in 0.061611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FBX format/lightPost_exclusive.fbx
+  artifactKey: Guid(5f9926e6449f5ab4483701f02dac9329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/lightPost_exclusive.fbx using Guid(5f9926e6449f5ab4483701f02dac9329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94026f71b63bae3fa30c271f1e83072e') in 0.065910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FBX format/roadSplitSmall.fbx
+  artifactKey: Guid(93ddbc036db362348a92b3f75d0e6112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadSplitSmall.fbx using Guid(93ddbc036db362348a92b3f75d0e6112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d13972ac9e10fd30362ab72566a3d7') in 0.092033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FBX format/roadCornerLargeBorderInner.fbx
+  artifactKey: Guid(18b2e41901b44b3468c0339e68e0d1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadCornerLargeBorderInner.fbx using Guid(18b2e41901b44b3468c0339e68e0d1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc27f044fc4424bd45a4fa9881a16c3') in 0.042480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/FBX format/flagTankco.fbx
+  artifactKey: Guid(d5ae0527fcec87845a51e2d4290fdb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/flagTankco.fbx using Guid(d5ae0527fcec87845a51e2d4290fdb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517a8b33a35101c1dbeefe2aca1d4d30') in 0.112807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FBX format/roadRampLong.fbx
+  artifactKey: Guid(6d824d4d4f4811b43b30b7596a1a4ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadRampLong.fbx using Guid(6d824d4d4f4811b43b30b7596a1a4ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e83f17c438d87c8944a424b2a891fd') in 0.048379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX format/roadCornerLargeSandInner.fbx
+  artifactKey: Guid(46eec0a2c0cb1554d8e08085b69945c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadCornerLargeSandInner.fbx using Guid(46eec0a2c0cb1554d8e08085b69945c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746b4f07bad076aec3059f02cccfc9bc') in 0.032967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FBX format/roadCornerBridgeSmall.fbx
+  artifactKey: Guid(09ec76b5cb31f3948b324fe6d6adf148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadCornerBridgeSmall.fbx using Guid(09ec76b5cb31f3948b324fe6d6adf148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7705a4415886f54ad494c385447930c') in 0.059672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FBX format/roadStraight.fbx
+  artifactKey: Guid(86e444e4be09d264bb9dd4ea32044c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadStraight.fbx using Guid(86e444e4be09d264bb9dd4ea32044c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118f41844f4f52dda73ba4a1f324f940') in 0.061738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FBX format/roadCornerLargerWall.fbx
+  artifactKey: Guid(d799dbb96df30334a80a5ac4bbcdc407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadCornerLargerWall.fbx using Guid(d799dbb96df30334a80a5ac4bbcdc407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b399a8fe9b566a5a60b7b7a47e9c1b0') in 0.082823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX format/barrierRed.fbx
+  artifactKey: Guid(80d19400396389140aa61d2057caede9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/barrierRed.fbx using Guid(80d19400396389140aa61d2057caede9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4295e2c5ad0c9f83a6c1bde8650437') in 0.048779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FBX format/roadRampLongCurvedWall.fbx
+  artifactKey: Guid(45ff8f89893217a4d84b9ebe8c1b9974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadRampLongCurvedWall.fbx using Guid(45ff8f89893217a4d84b9ebe8c1b9974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bef0ca7487ecd5dd99716a9bb402f4') in 0.063411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FBX format/roadStraightLongBump.fbx
+  artifactKey: Guid(ec27b5fc919618143bac41de5b510988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX format/roadStraightLongBump.fbx using Guid(ec27b5fc919618143bac41de5b510988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a3f6c99b4aac8a40bc7f997b87bb56') in 0.055446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
