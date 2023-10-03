@@ -1,14 +1,14 @@
 # Modified from:
 #     https://github.com/github/gitignore/blob/master/Unity.gitignore
 
-/[Ll]ibrary/
-/[Uu]serSettings/
-[Tt]emp/
-[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+/TNM114-AI/[Ll]ibrary/
+/TNM114-AI/[Uu]serSettings/
+/TNM114-AI/[Tt]emp/
+/TNM114-AI/[Oo]bj/
+/TNM114-AI/[Bb]uild/
+/TNM114-AI/[Bb]uilds/
+/TNM114-AI/[Ll]ogs/
+/TNM114-AI/[Mm]emoryCaptures/
 /TNM114-AI/venv/
 libburst-llvm-15.dylib
 
