@@ -9,7 +9,7 @@ public class Checkpoint : MonoBehaviour
     {
         if(other.TryGetComponent<CarController>(out CarController carController))
         {
-            trackCheckpoints.CarThroughCheckpoint(this);
+            trackCheckpoints.CarThroughCheckpoint(this, other.transform);
         }
     }
 
