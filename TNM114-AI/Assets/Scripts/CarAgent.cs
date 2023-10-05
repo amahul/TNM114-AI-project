@@ -53,7 +53,7 @@ public class CarAgent : Agent
 
     public override void OnEpisodeBegin()
     {
-        MaxStep = 1200; //hade han i car videon
+        MaxStep = 3500; //hade han i car videon
         trackCheckpoints.resetCheckpointIndex();
         transform.position = spawnPosition.position + new Vector3(UnityEngine.Random.Range(-3f, 3f), 0, UnityEngine.Random.Range(-3f, +3f));
         transform.forward = spawnPosition.forward;
@@ -70,7 +70,7 @@ public class CarAgent : Agent
             EndEpisode();
         }
 
-        Vector3 velocity = rb.velocity;
+        //Vector3 velocity = rb.velocity;
         //Debug.Log("Velocity");
         //Debug.Log(velocity);
 
