@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641228, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4467,7 +4467,7 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
-  trackCheckpoints: {fileID: 0}
+  trackCheckpoints: {fileID: 415018852}
   spawnPosition: {fileID: 1461391380}
 --- !u!114 &815800409
 MonoBehaviour:
@@ -5563,7 +5563,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14329185, y: 0.692436, z: -0.1432919, w: 0.69243586}
+  m_LocalRotation: {x: 0.14329185, y: 0.6924359, z: -0.1432919, w: 0.6924358}
   m_LocalPosition: {x: -0.6907997, y: 3.7459998, z: -14.873999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6155,7 +6155,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078074702}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14329185, y: 0.692436, z: -0.1432919, w: 0.69243586}
+  m_LocalRotation: {x: 0.14329185, y: 0.6924359, z: -0.1432919, w: 0.6924358}
   m_LocalPosition: {x: -0.6907997, y: 3.7459998, z: -14.873999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12422,7 +12422,7 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
-  trackCheckpoints: {fileID: 0}
+  trackCheckpoints: {fileID: 415018852}
   spawnPosition: {fileID: 1461391380}
 --- !u!114 &6707208375737910817
 MonoBehaviour:
