@@ -16,10 +16,12 @@ public class CarAgent : Agent
     [SerializeField] private Transform spawnPosition;
 
     private CarController carController;
+    private Rigidbody rb;
 
     private void Awake()
     {
         carController = GetComponent<CarController>();
+        rb = GetComponent<Rigidbody>();
     }
 
     private void Start()
@@ -34,7 +36,8 @@ public class CarAgent : Agent
         if (e.carTransform == transform)
         {
             Debug.Log("-1 Wrong");
-            AddReward(-1f);
+            AddReward(-0.5f);
+            EndEpisode();
         }
     }
 
@@ -63,22 +66,33 @@ public class CarAgent : Agent
         if (transform.up.y < -0.5f)
         {
             // Debug.Log("Negative reward, flipped.");
-            AddReward(-1f);
+            AddReward(-0.5f);
             EndEpisode();
         }
+
+        Vector3 velocity = rb.velocity;
+        //Debug.Log("Velocity");
+        //Debug.Log(velocity);
+
+        //if (velocity.x > 2)
+        //{
+        //    Debug.Log("Object is moving forward!");
+        //    AddReward(+0.1f);
+        //}
     }
     public override void CollectObservations(VectorSensor sensor)
     {
 
         // sensor.AddObservation(0.5f);
-        //Vector3 checkpointForward = trackCheckpoints.getNextTransform(transform).transform.forward;
-        sensor.AddObservation(transform.forward);
+        Vector3 checkpointForward = trackCheckpoints.GetNextTransform(transform).transform.forward;
+        float directionDot = Vector3.Dot(transform.forward, checkpointForward);
+        sensor.AddObservation(directionDot);
     }
     public override void OnActionReceived(ActionBuffers actions)
     {
         //Debug.Log("Mini neg reward");
-        AddReward(-0.01f); // give agent negative reward for every step
-                           // Debug.Log(StepCount);
+        //AddReward(-0.01f); // give agent negative reward for every step
+        // Debug.Log(StepCount);
 
         float forwardAmount = 0f;
         float turnAmount = 0f;
@@ -117,11 +131,13 @@ public class CarAgent : Agent
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("COLLISION ENTER");
+
         if (collision.gameObject.tag == "Wall")
         {
+            Debug.Log("COLLISION ENTER");
             // Minus reward
             AddReward(-0.5f);
+            EndEpisode();
             // Debug.Log("Negative reward");
         }
         //if (collision.gameObject.tag == "Checkpoint")
@@ -131,6 +147,18 @@ public class CarAgent : Agent
         //    Debug.Log("Positive reward");
         //}
 
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+
+        if (other.gameObject.tag == "Wall")
+        {
+            Debug.Log("COLLISION STAY");
+            // Minus reward
+            AddReward(-0.01f);
+            // Debug.Log("Negative reward");
+        }
     }
 
 

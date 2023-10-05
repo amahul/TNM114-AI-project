@@ -60,6 +60,7 @@ public class TrackCheckpoints : MonoBehaviour
         {
             Debug.Log("Wrong checkpoint");
             OnCarWrongCheckpoint?.Invoke(this, new CarCheckpointEventArgs { carTransform = carTransform });
+            nextCheckpointIndexList[carTransformList.IndexOf(carTransform)] = 0;
             //  Checkpoint correctCheckpoint = checkpointList[nextCheckpointIndex];
         }
     }
@@ -74,8 +75,10 @@ public class TrackCheckpoints : MonoBehaviour
         }
     }
 
-    //public int getNextTransform(Transform transformArg)
-    //{
-    //    return nextCheckpointIndexList[carTransformList.IndexOf(transformArg)];
-    //}
+    public Checkpoint GetNextTransform(Transform transformArg)
+    {
+        int nextCheckpointIndex = nextCheckpointIndexList[carTransformList.IndexOf(transformArg)];
+
+        return checkpointList[nextCheckpointIndex];
+    }
 }

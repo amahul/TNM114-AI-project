@@ -1,0 +1,65 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 499954,
+                "file_path": "results\\NewMaxSteps\\My Behavior\\My Behavior-499954.onnx",
+                "reward": 9.5,
+                "creation_time": 1696499305.9284575,
+                "auxillary_file_paths": [
+                    "results\\NewMaxSteps\\My Behavior\\My Behavior-499954.pt"
+                ]
+            },
+            {
+                "steps": 999989,
+                "file_path": "results\\NewMaxSteps\\My Behavior\\My Behavior-999989.onnx",
+                "reward": null,
+                "creation_time": 1696501429.4722254,
+                "auxillary_file_paths": [
+                    "results\\NewMaxSteps\\My Behavior\\My Behavior-999989.pt"
+                ]
+            },
+            {
+                "steps": 1422534,
+                "file_path": "results\\NewMaxSteps\\My Behavior\\My Behavior-1422534.onnx",
+                "reward": null,
+                "creation_time": 1696503394.6532316,
+                "auxillary_file_paths": [
+                    "results\\NewMaxSteps\\My Behavior\\My Behavior-1422534.pt"
+                ]
+            },
+            {
+                "steps": 1430243,
+                "file_path": "results\\NewMaxSteps\\My Behavior\\My Behavior-1430243.onnx",
+                "reward": null,
+                "creation_time": 1696503579.1873844,
+                "auxillary_file_paths": [
+                    "results\\NewMaxSteps\\My Behavior\\My Behavior-1430243.pt"
+                ]
+            },
+            {
+                "steps": 1498896,
+                "file_path": "results\\NewMaxSteps\\My Behavior\\My Behavior-1498896.onnx",
+                "reward": null,
+                "creation_time": 1696504144.8996952,
+                "auxillary_file_paths": [
+                    "results\\NewMaxSteps\\My Behavior\\My Behavior-1498896.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1498896,
+            "file_path": "results\\NewMaxSteps\\My Behavior.onnx",
+            "reward": null,
+            "creation_time": 1696504144.8996952,
+            "auxillary_file_paths": [
+                "results\\NewMaxSteps\\My Behavior\\My Behavior-1498896.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}
